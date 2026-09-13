@@ -17,7 +17,7 @@ function Sidebar(){
 
         <div className="sidebar">
            <div className="top">
-            <span className="logo">Abhishek</span>
+            <span className="logo">Abhishek Tiwari</span>
            </div>
            <hr />
            <div className="center">

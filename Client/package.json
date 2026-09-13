@@ -15,8 +15,10 @@
     "@mui/icons-material": "^9.4.0",
     "@mui/material": "^9.4.0",
     "react": "^19.2.8",
+    "react-circular-progressbar": "^2.2.0",
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.3",
+    "recharts": "^3.10.1",
     "sass": "^1.104.1"
   },
   "devDependencies": {

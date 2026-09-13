@@ -34,7 +34,7 @@ function Widgets({ type }) {
             data = {
                 title: 'ORDERS',
                 isMoney: false,
-                link: "See all ORDERS",
+                link: "See all orders",
                 icon: (
                     <ShoppingCartOutlinedIcon className='icon'
 
