@@ -3,25 +3,37 @@
     flex: 1;
     border-right: 0.5px solid rgb(230, 227, 227);
     min-height: 100vh;
-
+   
+    display: flex;
+    flex-direction: column;
+    
     .top{
-        height: 50px;
+        height: 48px;
         display: flex;
         align-items: center;
         justify-content: center;
-
+        position: sticky;
+        top: 0px;
+        
+        
         .logo{
             font-size: 20px;
             font-weight: bold;
             color: #6439ff;
         }
-
+        
     }
-
+    
     hr{
         height: 0;
-        border: 0.5px solid rgb(230, 227, 227);
+        border: 0.2px solid rgb(230, 227, 227);
+        position: sticky;
+        top: 50px;
+
+        
+        
     }
+   
 
     .center{
         padding-left: 10px;
@@ -42,7 +54,7 @@
             li{
                 display: flex;
                 align-items: center;
-                padding: 9px;
+                padding: 15px 9px;
                 cursor: pointer;
 
                 &:hover{
